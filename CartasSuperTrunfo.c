@@ -7,8 +7,8 @@
 
 
 int main() {
-    printf("Desafio Cartas Super Trunfo")
-    
+    printf("Desafio Cartas Super Trunfo");
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
     
