@@ -5,6 +5,15 @@
 // Este código inicial serve como base para o desenvolvimento do sistema de cadastro de cartas de cidades.
 // Siga os comentários para implementar cada parte do desafio.
 
+typedef struct {
+    char codigo[4]; // Código do estado e cidade (ex: A01, B02)
+    char nome[50];  // Nome da cidade
+    int populacao;
+    float area;
+    float pib;
+    int pontos_turisticos;
+} Carta;
+
 
 int main() {
     
@@ -12,17 +21,12 @@ int main() {
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
-
-    char codigo[4];
-    char cidade[50];
-    int populacao;
-    float area;
-    float pib;
-    int pontos_turisticos;
     
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
+    
+    Carta carta1, carta2;
     
     printf("Cadastro da primeira carta:\n");
     printf("Código (ex: A01): ");
